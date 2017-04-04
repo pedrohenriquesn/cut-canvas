@@ -1,3 +1,11 @@
-module.exports = function (name, element) {
-    element.textContent = 'Hello ' + name + '!';
+module.exports = function () {
+    calculos()
 };
+
+
+
+function calculos() {
+    let initMouseX = event.clientX
+    let initMouseY = event.clientY
+    debugger
+}
