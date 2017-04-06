@@ -4,15 +4,17 @@ module.exports = function () {
 
 function initMouseDown() {
         $('.box-size').css('border-color', 'rgba(99, 102, 104, 0.63)')
-        $('.sizeX').css('background-color', '#3E6892')
-        $('.sizeY').css('background-color', '#3E6892')
+        // $('.svg-tracejado').toggle()
+        $('.svg-tracejado').css('display', 'block')
+        // $('.sizeX').css('background-color', '#3E6892')
+        // $('.sizeY').css('background-color', '#3E6892')
 
         sessionStorage.setItem('dragMouse', true)
         sessionStorage.setItem('initClientX', event.clientX)
         sessionStorage.setItem('initClientY', event.clientY)
 
         sessionStorage.setItem('dataMove', event.target.getAttribute('data-move'))
-
+        
         switch (sessionStorage.getItem('dataMove')) {
             case "full-box":
                 sessionStorage.setItem('currentBorderTop', parseInt($('.box-size').css('border-top')))

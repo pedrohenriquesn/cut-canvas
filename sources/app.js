@@ -15,9 +15,36 @@ $(document).ready(function(){
 
     $(".btn-fake-cut").click(function(event){
         $('.box-size').css('border-color', '#FFF')
-        $('.sizeX').css('background-color', 'rgba(0, 0, 0, 0)')
-        $('.sizeY').css('background-color', 'rgba(0, 0, 0, 0)')
+        $('.svg-tracejado').css('display', 'none')
     });
 
+    // $(function() {
+        // console.log('teste')
+        // setTimeout(function(){ 
+            
+        //     let imagem = $('.art-image')[0]
+        //     let altura = (imagem.height - 300)
+        //     let largura = (imagem.width - 300)
+            
+        //     $('.box-size').css('border-right-width', ''+(largura/2)+'px')
+        //     $('.box-size').css('border-left-width', ''+(largura/2)+'px')
+        //     $('.box-size').css('border-top-width', ''+(altura/2)+'px')
+        //     $('.box-size').css('border-bottom-width', ''+(altura/2)+'px')
+
+        // }, 3000);
+
+        // $( "#art-image-img" ).onload = function() {
+        //     debugger
+        // }
+
+        // $( "#art-image-img" ).on('load', function() {
+        //     debugger
+        // });
+
+    // });
+
+    window.addEventListener('load', function(){
+        debugger
+    }, false)
 
 });
