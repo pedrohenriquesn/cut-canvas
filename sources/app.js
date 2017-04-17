@@ -19,19 +19,18 @@ $(document).ready(function(){
     });
 
     // $(function() {
-        // console.log('teste')
-        // setTimeout(function(){ 
+        setTimeout(function(){ 
             
-        //     let imagem = $('.art-image')[0]
-        //     let altura = (imagem.height - 300)
-        //     let largura = (imagem.width - 300)
+            let imagem = $('.art-image')[0]
+            let altura = (imagem.height - 300)
+            let largura = (imagem.width - 300)
             
-        //     $('.box-size').css('border-right-width', ''+(largura/2)+'px')
-        //     $('.box-size').css('border-left-width', ''+(largura/2)+'px')
-        //     $('.box-size').css('border-top-width', ''+(altura/2)+'px')
-        //     $('.box-size').css('border-bottom-width', ''+(altura/2)+'px')
+            $('.box-size').css('border-right-width', ''+(largura/2)+'px')
+            $('.box-size').css('border-left-width', ''+(largura/2)+'px')
+            $('.box-size').css('border-top-width', ''+(altura/2)+'px')
+            $('.box-size').css('border-bottom-width', ''+(altura/2)+'px')
 
-        // }, 3000);
+        }, 100);
 
         // $( "#art-image-img" ).onload = function() {
         //     debugger
